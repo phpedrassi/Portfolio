@@ -383,7 +383,10 @@ p {
     padding: 2rem;
     font-size: 1.8rem;
     color: var(--white-color);
-    
+}
+
+.footer ul li img {
+    height: 4rem;
 }
 
 .close-menu {

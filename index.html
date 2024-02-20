@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PauloHenriquePedrassi</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <div onclick="getElementById('close-menu').checked=false;" class="logo"><a href="#intro"><img src="./img/Logo.png"
+                alt="Imagem do Paulo Henrique Pedrassi com as cores combinando com o site"></a></div>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked=false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#habilities">Habilidades</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <!-- <div class="menu-spacing"></div> -->
+
+
+    <section id="intro" class="dark-bg section intro-container">
+        <img class="intro-img" src="./img/cityNight-bg.jpg" alt="Imagem de fundo de uma cidade vista de cima">
+        <div class="intro-content">
+            <p>Oi, eu sou<br>
+                <span>Paulo Henrique Pedrassi</span><br>
+                Desenvolvedor <span>Front-end</span>.
+            </p>
+        </div>
+    </section>
+    <section id="about" class="dark-bg section">
+        <div class="main-content about-content">
+            <h2>Sobre mim</h2>
+            <p>Recentemente, mergulhei no mundo do desenvolvimento web, explorando HTML, CSS e JavaScript. Tenho me
+                dedicado a entender os fundamentos do design responsivo e da acessibilidade, buscando criar experiências
+                que sejam acessíveis a todos os usuários.
+            </p>
+            <p>
+                Embora ainda esteja nos estágios iniciais da minha carreira, estou comprometido em me aprimorar
+                constantemente e em expandir meu conhecimento.</p>
+
+            <p>
+                Percebi a importância de compreender não apenas a camada visual, mas também a lógica e o funcionamento
+                dos sistemas por trás das interfaces. Isso despertou em mim o desejo de me tornar um desenvolvedor
+                full-stack futuramente.
+            </p>
+
+        </div>
+    </section>
+    <section id="projects" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2>Projetos pessoais</h2>
+            <div class="grid">
+                <div class="projects-img">
+                    <a href="https://phpedrassi.github.io/combo-notes/" target="_blank"><img src="./img/ComboNotes.jpg"
+                            alt="Imagem do site Combo Notes"></a>
+                </div>
+                <div class="projects-img">
+                    <a href="https://phpedrassi.github.io/MinhasSeries/" target="_blank"><img src="./img/MinhasSeries.jpg"
+                            alt="Imagem do site Minhas Séries"></a>
+                </div>
+                <div class="projects-img">
+                    <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
+                </div>
+                <div class="projects-img">
+                    <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
+                </div>
+                <div class="projects-img">
+                    <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
+                </div>
+                <div class="projects-img">
+                    <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="habilities" class="dark-bg section">
+        <div class="main-content">
+            <h2>Habilidades</h2>
+            <div class="habilidades-content">
+                <article>
+                    <h3>Atuais</h3>
+
+                    <div class="hab-content">
+                        <div class="habilidade-img">
+                            <h4>HTML</h4>
+                            <img src="./img/htmlSymbol.png" alt="Símbolo do HTML">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>CSS</h4>
+                            <img src="./img/cssSymbol.png" alt="Símbolo do CSS">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>JavaScript</h4>
+                            <img src="./img/jsSymbol.png" alt="Símbolo do JavaScript">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>git</h4>
+                            <img src="./img/gitSymbol.png" alt="Símbolo do git">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>Figma</h4>
+                            <img src="./img/figmaSymbol.png" alt="Símbolo do Figma">
+                        </div>
+
+
+
+                    </div>
+                </article>
+
+                <article>
+                    <h3>Próximos</h3>
+
+                    <div class="hab-content">
+                        <div class="habilidade-img">
+                            <h4>TypeScript</h4>
+                            <img src="./img/tsSymbol.png" alt="Símbolo do HTML">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>Node</h4>
+                            <img src="./img/nodeSymbol.png" alt="Símbolo do node">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>React</h4>
+                            <img src="./img/reactSymbol.png" alt="Símbolo do React">
+                        </div>
+                        <div class="habilidade-img">
+                            <h4>SQL</h4>
+                            <img src="./img/sqlSymbol.png" alt="Símbolo do sql">
+                        </div>
+
+
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/paulo-henrique-pedrassi-35880a2b5">Linkedin</a></li>
+            <li><a href="https://github.com/phpedrassi">GitHub</a></li>
+            <li>CV Download</li>
+        </ul>
+    </footer>
+    <a class="back-to-top" href="#intro">❯</a>
+</body>
+
+</html>

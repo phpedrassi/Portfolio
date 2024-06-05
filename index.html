@@ -21,8 +21,9 @@
     <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu">
         <div class="main-content menu-content">
-            <div onclick="getElementById('close-menu').checked=false;" class="logo"><a href="#intro"><img src="./img/Logo.png"
-                alt="Imagem do Paulo Henrique Pedrassi com as cores combinando com o site"></a></div>
+            <div onclick="getElementById('close-menu').checked=false;" class="logo"><a href="#intro"><img
+                        src="./img/Logo.png"
+                        alt="Imagem do Paulo Henrique Pedrassi com as cores combinando com o site"></a></div>
             <nav>
                 <ul onclick="getElementById('close-menu').checked=false;">
                     <li><a href="#intro">intro</a></li>
@@ -47,9 +48,11 @@
         </div>
     </section>
     <section id="about" class="dark-bg section">
+
         <div class="main-content about-content">
             <h2>Sobre mim</h2>
-            <p>Recentemente, mergulhei no mundo do desenvolvimento web, explorando HTML, CSS e JavaScript. Tenho me
+            <p>Recentemente, mergulhei no mundo do desenvolvimento web, explorando HTML, CSS, JavaScript e React. Tenho
+                me
                 dedicado a entender os fundamentos do design responsivo e da acessibilidade, buscando criar experiências
                 que sejam acessíveis a todos os usuários.
             </p>
@@ -69,16 +72,14 @@
         <div class="main-content grid-one-content">
             <h2>Projetos pessoais</h2>
             <div class="grid">
-                <div class="projects-img">
-                    <a href="https://phpedrassi.github.io/combo-notes/" target="_blank"><img src="./img/ComboNotes.jpg"
-                            alt="Imagem do site Combo Notes"></a>
+                <div class="projects-img combo-notes-screen">
+                    <img src="./img/ComboNotes.jpg" alt="Imagem do site Combo Notes">
                 </div>
-                <div class="projects-img">
-                    <a href="https://phpedrassi.github.io/MinhasSeries/" target="_blank"><img src="./img/MinhasSeries.jpg"
-                            alt="Imagem do site Minhas Séries"></a>
+                <div class="projects-img series-screen">
+                    <img src="./img/MinhasSeries.jpg" alt="Imagem do site Minhas Séries">
                 </div>
-                <div class="projects-img">
-                    <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
+                <div class="projects-img anime-award-screen">
+                    <img src="./img/CreateAnimeAwards.jpg" alt="Imagem do site Minhas Séries">
                 </div>
                 <div class="projects-img">
                     <img src="./img/emBreve.jpg" alt="Essa imagem estrará em breve">
@@ -113,6 +114,10 @@
                             <img src="./img/jsSymbol.png" alt="Símbolo do JavaScript">
                         </div>
                         <div class="habilidade-img">
+                            <h4>React</h4>
+                            <img src="./img/reactSymbol.png" alt="Símbolo do React">
+                        </div>
+                        <div class="habilidade-img">
                             <h4>git</h4>
                             <img src="./img/gitSymbol.png" alt="Símbolo do git">
                         </div>
@@ -123,7 +128,10 @@
 
 
 
+
+
                     </div>
+
                 </article>
 
                 <article>
@@ -135,17 +143,18 @@
                             <img src="./img/tsSymbol.png" alt="Símbolo do HTML">
                         </div>
                         <div class="habilidade-img">
-                            <h4>Node</h4>
-                            <img src="./img/nodeSymbol.png" alt="Símbolo do node">
+                            <h4>Tailwind</h4>
+                            <img src="./img/tailwindSymbol.png" alt="Símbolo do sql">
                         </div>
                         <div class="habilidade-img">
-                            <h4>React</h4>
-                            <img src="./img/reactSymbol.png" alt="Símbolo do React">
+                            <h4>Node</h4>
+                            <img src="./img/nodeSymbol.png" alt="Símbolo do node">
                         </div>
                         <div class="habilidade-img">
                             <h4>SQL</h4>
                             <img src="./img/sqlSymbol.png" alt="Símbolo do sql">
                         </div>
+
 
 
                     </div>
@@ -155,14 +164,32 @@
     </section>
 
 
+
     <footer id="footer" class="footer">
         <ul>
-            <li><a href="https://www.linkedin.com/in/paulo-henrique-pedrassi-35880a2b5"><img src="./img/linkedinicon.png" alt="Símbolo do linkedin"></a></li>
-            <li><a href="https://github.com/phpedrassi"><img src="./img/githubicon.png" alt="Símbolo do github"></a></li>
-            <li><a href="./cv/CV_PauloHPedrassi_dev.pdf" download="CV_PauloHPedrassi_dev.pdf"><img src="./img/cvicon.png" alt="Símbolo do pdf">CV Download</a></li>
+            <li><a href="https://www.linkedin.com/in/paulo-henrique-pedrassi-35880a2b5"><img
+                        src="./img/linkedinicon.png" alt="Símbolo do linkedin"> Linkedin</a></li>
+            <li><a href="https://github.com/phpedrassi"><img src="./img/githubicon.png" alt="Símbolo do github">
+                    Github</a></li>
+            <li><a href="./cv/CV_PauloHPedrassi_dev.pdf" download="CV_PauloHPedrassi_dev.pdf"><img
+                        src="./img/cvicon.png" alt="Símbolo do pdf">CV Download</a></li>
         </ul>
     </footer>
     <a class="back-to-top" href="#intro">❯</a>
+    <div class="hab-click-container hide">
+        <div class="hab-click">
+            <div class="btn-ext">
+                <button class="hab-click-x">X</button>
+            </div>
+
+            <p class="hab-click-p"></p>
+            <div class="btn-site">
+                <button class="hab-click-git">Github</button>
+                <button class="hab-click-site">Ir ao site</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
